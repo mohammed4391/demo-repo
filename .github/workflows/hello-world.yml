@@ -1,6 +1,6 @@
- name: Hello World Workflow
+name: Hello World Workflow
 
-   on:
+on:
      push:
        branches:
          - main
