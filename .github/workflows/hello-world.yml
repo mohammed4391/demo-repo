@@ -1,4 +1,4 @@
- name: Hello World Workflow
+  name: Hello World Workflow
 
    on:
      push:
@@ -12,4 +12,3 @@
        steps:
        - name: Print Hello World
          run: echo "Hello World!"
-
