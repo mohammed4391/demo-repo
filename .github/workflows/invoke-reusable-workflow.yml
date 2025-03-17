@@ -1,0 +1,10 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  invoke:
+    uses: ./.github/workflows/reusable-workflow.yml
+    with:
+      build-command: "python setup.py build"
